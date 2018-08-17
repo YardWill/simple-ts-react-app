@@ -6,16 +6,16 @@
 */
 
 // react dependencies
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 // hot reload for development
-import { AppContainer } from "react-hot-loader";
+import { AppContainer } from 'react-hot-loader';
 
-import App from "./App";
+import App from './App';
 
-import "./style.scss";
+import './style.less';
 
-const root = document.getElementById("root") as HTMLElement;
+const root = document.getElementById('root') as HTMLElement;
 
 const render = (Component: React.SFC) => {
   ReactDOM.render(
@@ -29,7 +29,7 @@ const render = (Component: React.SFC) => {
 render(App);
 
 if (module.hot) {
-  module.hot.accept("./App", () => {
+  module.hot.accept('./App', () => {
     render(App);
   });
 }

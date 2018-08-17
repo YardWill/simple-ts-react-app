@@ -9,34 +9,8 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yard",
   "license": "ISC",
-  "jest": {
-    "roots": [
-      "<rootDir>/src"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
-    "setupFiles": [
-      "<rootDir>/src/tests/setup.ts"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|styl|less|sass|scss)$": "identity-obj-proxy"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest",
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/tests/__mock__/fileTransformer.js"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.51",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.51",
@@ -60,9 +34,9 @@
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.2.0",
-    "node-sass": "^4.9.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "react-hot-loader": "^4.3.3",
-    "sass-loader": "^7.0.3",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.21.0",
     "ts-jest": "^23.0.0",
