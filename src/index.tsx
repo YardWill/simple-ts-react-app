@@ -20,7 +20,10 @@ const root = document.getElementById('root') as HTMLElement;
 const render = (Component: React.SFC) => {
   ReactDOM.render(
     <AppContainer>
-      <Component />
+      <div>123123123123123
+
+        <Component />
+      </div>
     </AppContainer>,
     root,
   );
